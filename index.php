@@ -25,6 +25,7 @@ echo "Yepiee <br>";
 // echo ($a),"<br>";
 
 //FIBANOČI līdz 1000 / 1 1 2 3 5 8 
+
 $b_1 = 1;
 for ($b = 1; $b <= 1000; $b = $b + 0){
     echo "$b <br>";

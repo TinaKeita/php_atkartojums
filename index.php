@@ -12,5 +12,7 @@ echo "Yepiee <br>";
 // Izvadiet katram ziņojumam tā nosaukumu, saturu un lietotāja ID, kas to ir izveidojis..
   $dataString = file_get_contents("https://jsonplaceholder.typicode.com/posts");
   $posts = json_decode($dataString);
-  var_dump($posts);
+  foreach ($posts as $post) {
+      echo "$post->title<br>";
+  }
 ?>
